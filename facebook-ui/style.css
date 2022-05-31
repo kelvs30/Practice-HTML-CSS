@@ -1,0 +1,173 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 0;
+  background-color: rgb(240, 242, 245);
+  padding-bottom: 500px;
+}
+
+div, h2 {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.overall-design {
+  padding-top: 72px;
+  padding-bottom: 112px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+.right-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin-left: 155px;
+  margin-right: 181px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.facebook-left-section {
+  width: 548px;
+  margin-bottom: 80px;
+  height: 266px;
+}
+
+.facebook-logo {
+  padding-bottom: 16px;
+  padding-top: 112px;
+}
+
+.facebook-picture {
+  height: 106px;
+  margin: -28px -28px -28px -28px;
+}
+
+.connect-friends {
+  font-weight: 400;
+  font-size: 28px;
+  margin-top: 1px;
+  width: 500px;
+}
+
+.facebook-right-pages {
+  display: inline-block;
+  justify-content: end;
+  vertical-align: top;
+  align-items: center;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.facebook-right-section {
+  justify-content: end;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+}
+
+.facebook-interface {
+  padding: 15px;
+  align-items: center;
+}
+
+.email-input, .password-input {
+  display: block;
+  justify-content: center;
+  border-style: solid solid;
+  border-width: 1px 1px;
+  border-radius: 6px;
+  border-color: rgb(221, 223, 226);
+  color: rgb(74, 80, 92);
+  border: 1px 1px;
+  width: 330px;
+  height: 22px;
+  padding: 14px 16px;
+  margin: 1px 2px 13px;
+  font-size: 17px;
+  box-shadow: inset rgba(0, 0, 0, 0.1) 0px 0.2px 0.2px 0px;
+}
+
+.email-input::placeholder, .password-input::placeholder {
+  padding-left: -30px;
+  color: rgb(156, 156, 156);
+  padding-left: 0px;
+}
+
+.login-button {
+  display: grid;
+  align-items: center;
+  width: 365px;
+  background-color: rgb(24, 119, 242); 
+  font-size: 20px;
+  white-space: nowrap;
+  padding: 0px 16px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  font-stretch: 100%;
+  font-weight: 700;
+  color: white;
+  justify-content: center;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.forgot-password {
+  color: rgb(24, 119, 242);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration-style: solid;
+  margin-top: 20px;
+}
+
+.forgotting-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin: 5px 0px 10px;
+  color: rgb(221, 223, 226);
+}
+
+.create-account {
+  background-color: rgb(66, 183, 42);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 16px;
+  font-size: 17px;
+  font-weight: 700;
+  justify-content: center;
+  margin: 15px 10px 10px 86px;
+}
+
+.last-text {
+  width: 396px;
+  height: 19px;
+  margin-top: 28px;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.bolder-page {
+  font-weight: 700;
+  transition: hover 1s;
+}
+
+.bolder-page:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
